@@ -1,0 +1,23 @@
+{
+  "name": "maxivillalba-cv-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./public/style.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximiliano Villalba",
+  "license": "ISC",
+  "description": "CV API + Web personal con endpoint y diseño TailwindCSS",
+  "keywords": ["CV", "portfolio", "API", "developer", "MaxiVillalba", "Tailwind", "Express"],
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1"
+  }
+}
